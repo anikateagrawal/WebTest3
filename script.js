@@ -43,6 +43,7 @@ function dis(){
     ticket.children[0].style.backgroundColor=`${element.col}`;
     ticket.children[2].innerText=element.con;
     ticket.addEventListener("click",del);
+    arr.push(element);
         });
     }
 }
