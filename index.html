@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <div class="color">
+            <input type="radio" name="t" class="c" id="blue">
+            <input type="radio" name="t" class="c" id="red">
+            <input type="radio" name="t" class="c" id="green">
+            <input type="radio" name="t" class="c" id="black" checked>
+        </div>
+        <div class="button">
+            <div class="add" id="add">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+                <input type="checkbox" name="delete" id="delet">
+                <label for="delet" class="del"><i class="fa-solid fa-trash"></i></label>
+        </div>
+    </header>
+    <div class="tickets" id="tt">
+        <div class="tick">
+            <div class="co"></div>
+            <div class="tag"></div>
+            <div class="cont"></div>
+        </div>
+    </div>
+
+    <div class="ticket" id="ttt">
+        <div class="text">
+            <textarea name="text" id="text" cols="30" rows="9" ></textarea>
+        </div>
+        <div class="col">
+            <input type="radio" name="t" class="c" id="blue2">
+            <input type="radio" name="t" class="c" id="red2">
+            <input type="radio" name="t" class="c" id="green2">
+            <input type="radio" name="t" class="c" id="black2">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
