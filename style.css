@@ -131,6 +131,10 @@ margin: 20px;
     height: 30px;
 background-color: aliceblue;
 pointer-events: none;
+padding: 5px;
+display: flex;
+justify-content: left;
+align-items: center;
 }
 .cont{
     display: flex;
