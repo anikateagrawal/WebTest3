@@ -11,7 +11,6 @@ function add(){
     <div class="cont"></div>`;
     ticketscon.appendChild(ticket);
 
-    
 }
 var ad=document.getElementById("add");
 ad.addEventListener("click",show);
