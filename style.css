@@ -120,14 +120,17 @@ background-color: gainsboro;
 border: 2px solid black;
 overflow: hidden;
 margin: 20px;
+/* pointer-events: none; */
 }
 .co{
     height: 10px;
     /* background-color: black; */
+    pointer-events: none;
 }
 .tag{
     height: 30px;
 background-color: aliceblue;
+pointer-events: none;
 }
 .cont{
     display: flex;
@@ -136,5 +139,6 @@ background-color: aliceblue;
     /* align-items: ; */
     padding: 10px;
     background-color: bisque;
+    pointer-events: none;
 }
 
